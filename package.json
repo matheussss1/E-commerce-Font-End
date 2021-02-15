@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass ./sass/style.scss style.css --watch"
+    "start": "sass ./sass/style.scss ./style/style.css --watch"
   },
   "author": "Matheus Carvalho",
   "license": "ISC"
