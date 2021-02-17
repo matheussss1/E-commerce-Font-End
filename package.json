@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sass ./sass/style.scss ./style/style.css --watch"
   },
-  "author": "Matheus Carvalho",
+  "author": "Matheus Felipe Carvalho",
   "license": "ISC"
 }
