@@ -7,3 +7,10 @@ button, button:focus{
 a {
     text-decoration: none;
 }
+.box-item-image{
+    height: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px;
+}

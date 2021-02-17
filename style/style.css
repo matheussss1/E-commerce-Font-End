@@ -10,6 +10,14 @@ a {
   text-decoration: none;
 }
 
+.box-item-image {
+  height: 200px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 35px;
+}
+
 /* Typography classes */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
@@ -41,19 +49,19 @@ a {
 
 /*  Color Template  */
 .color-primary {
-  color: #5f0044;
+  color: #60aafa;
 }
 
 .color-primary-bg {
-  background: #5f0044;
+  background: #60aafa;
 }
 
 .color-second {
-  color: #c4009d;
+  color: #c41400;
 }
 
 .color-second-bg {
-  background: #c4009d;
+  background: #c41400;
 }
 
 .color-yellow {
@@ -88,7 +96,7 @@ a {
 }
 
 .owl-carousel .owl-nav button.owl-prev span {
-  color: #5f0044;
+  color: #60aafa;
   font-size: 35px;
   margin-left: -4rem;
   padding: 0 auto;
@@ -99,7 +107,7 @@ a {
 }
 
 .owl-carousel .owl-nav button.owl-next span {
-  color: #5f0044;
+  color: #60aafa;
   font-size: 35px;
   margin-right: -4rem;
   padding: 0 auto;
