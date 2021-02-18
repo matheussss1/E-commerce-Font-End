@@ -18,6 +18,27 @@ a {
   margin: 0 35px;
 }
 
+.image-banner {
+  width: fit-content !important;
+  max-height: 650px !important;
+  margin: 0 auto;
+}
+
+.promo {
+  background-color: #04b804;
+  padding: 3px 7px;
+  border-radius: 10px;
+  color: black;
+}
+
+.promo::before {
+  content: "ONLY ";
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* Typography classes */
 .font-baloo {
   font-family: "Baloo Thambi 2", cursive;
@@ -77,11 +98,11 @@ a {
   overflow: hidden;
 }
 
-.owl-carousel .item .product img {
+.owl-carousel .item .product .box-item-image {
   transition: transform 0.5s ease;
 }
 
-.owl-carousel .item .product img:hover {
+.owl-carousel .item .product .box-item-image:hover {
   transform: scale(1.1);
 }
 
@@ -97,8 +118,8 @@ a {
 
 .owl-carousel .owl-nav button.owl-prev span {
   color: #60aafa;
-  font-size: 35px;
-  margin-left: -4rem;
+  font-size: 65px;
+  margin-left: -2rem;
   padding: 0 auto;
 }
 
@@ -108,9 +129,24 @@ a {
 
 .owl-carousel .owl-nav button.owl-next span {
   color: #60aafa;
-  font-size: 35px;
-  margin-right: -4rem;
+  font-size: 65px;
+  margin-right: -2rem;
   padding: 0 auto;
+}
+
+/*      SPECIAL PRICE TEMPLATE      */
+#special-price .grid .grid-item {
+  margin: 1rem auto;
+}
+
+.special-price-item {
+  width: 250px !important;
+  margin: 10px;
+}
+
+.teste {
+  margin: 0 auto;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
