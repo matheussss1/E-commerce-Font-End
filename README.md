@@ -15,4 +15,4 @@ To build this project was need:
     
 - Nodejs and Sass.
 
-And type "npm start" in the terminal to start compile de scss files
+And type "npm install" and "npm start" in the terminal to start compile de scss files
