@@ -1,5 +1,8 @@
 # Ecommerce - Tech Shop
 
+## Project Overview
+![](https://github.com/matheussss1/E-commerce-Font-End/blob/master/assets/gifReadme/gif.gif)
+
 ### This is a front-end project
 
 To build this project was need:
